@@ -1,0 +1,18 @@
+chat_model_name: qwen3-max
+embedding_model_name: text-embedding-v4
+
+hybrid_search:
+  enable: true
+  bm25_top_n: 50
+  dense_top_n: 50
+  fusion_top_n: 20
+
+rrf:
+  k: 60
+
+reranker:
+  enable: true
+  provider: "dashscope"
+  model: "qwen3-rerank"
+  top_k: 3
+  top_n: 20
