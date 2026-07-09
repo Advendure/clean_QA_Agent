@@ -1,6 +1,6 @@
 # clean_QA_智能客服
 
-基于 RAG（检索增强生成）与 ReAct Agent 技术的扫地机器人智能客服系统，支持知识库问答、使用报告生成等功能。
+基于 RAG（检索增强生成）技术的扫地机器人智能客服系统，支持知识库问答、使用报告生成等功能。
 
 ## 功能特性
 
@@ -12,11 +12,11 @@
 
 ## 技术栈
 
+ **智能体框架**：LangChain
 - **前端界面**：Streamlit
 - **大语言模型**：通义千问 qwen3-max
 - **Embedding 模型**：DashScope text-embedding-v4
 - **向量数据库**：ChromaDB
-- **智能体框架**：LangChain
 - **重排序**：qwen3-rerank
 
 ## 项目结构
