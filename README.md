@@ -136,20 +136,6 @@ chunk_size: 200                     # 文档分块大小
 chunk_overlap: 20                   # 分块重叠大小
 ```
 
-## 可用工具
-
-智能体可调用以下工具：
-
-| 工具名 | 描述 |
-|--------|------|
-| `rag_summarize` | 从向量数据库中检索参考资料并生成回答 |
-| `get_weather` | 获取指定城市的天气信息 |
-| `get_user_location` | 获取用户所在城市 |
-| `get_user_id` | 获取用户 ID |
-| `get_current_month` | 获取当前月份 |
-| `fetch_external_data` | 获取用户使用记录数据 |
-| `fill_context_for_report` | 触发报告生成上下文切换 |
-
 ## License
 
 MIT
