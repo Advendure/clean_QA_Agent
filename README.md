@@ -12,7 +12,7 @@
 
 ## 技术栈
 
- **智能体框架**：LangChain
+- **智能体框架**：LangChain
 - **前端界面**：Streamlit
 - **大语言模型**：通义千问 qwen3-max
 - **Embedding 模型**：DashScope text-embedding-v4
